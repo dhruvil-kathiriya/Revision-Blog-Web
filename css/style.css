@@ -259,7 +259,7 @@ a {
 .card {
   padding: 30px;
   border-radius: 20px;
-  box-shadow: rgba(114, 114, 255, 0.12) 0px 5px 20px 0px;
+  box-shadow: rgba(114, 114, 255, 0.2) 0px 5px 20px 0px;
 }
 
 .card .avatar {
@@ -273,6 +273,10 @@ a {
   margin-bottom: 10px;
   font-weight: 600;
   font-size: 14px;
+}
+
+.card-p {
+  padding-top: 15px;
 }
 .card-content p {
   line-height: 25px;
@@ -311,13 +315,14 @@ a {
   margin-top: 50px;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: rgba(114, 114, 255, 0.12) 0px 5px 20px 0px;
+  box-shadow: rgba(114, 114, 255, 0.2) 0px 5px 20px 0px;
 }
 
 .experience p {
   font-size: 14px;
   font-weight: 600;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  opacity: 0.8;
 }
 
 .experience h3 {
@@ -334,20 +339,95 @@ hr {
   margin-top: 50px;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: rgba(114, 114, 255, 0.12) 0px 5px 20px 0px;
+  box-shadow: rgba(114, 114, 255, 0.2) 0px 5px 20px 0px;
 }
 
 .technologies p {
   font-size: 14px;
   font-weight: 600;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  opacity: 0.8;
 }
 
-.technologies ul li img{
-  height: ;
+.technologies ul li img {
+  height: 50px;
+  width: 50px;
+  margin-right: 30px;
+  border-radius: 10px;
 }
 
 .technologies ul li:last-child p {
   font-size: 14px;
   opacity: 0.8;
+  padding-bottom: 15px;
+}
+
+/* Technolories */
+
+.creating {
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(114, 114, 255, 0.2) 0px 5px 20px 0px;
+  position: sticky;
+  top: 20px;
+}
+
+.creating a {
+  color: #5955d1;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.creating p {
+  font-size: 14px;
+  opacity: 0.8;
+  padding-bottom: 10px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  padding: 90px 0;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 480px;
+}
+
+.newsletter h3 {
+  font-size: 32px;
+}
+.newsletter p {
+  color: #696981;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 15px 15px;
+  border-radius: 10px;
+  width: 90%;
+  box-shadow: rgba(114, 114, 255, 0.2) 0px 5px 20px 0px;
+  border: 1px solid rgb(227, 227, 227);
+}
+
+.subscribe {
+  position: relative;
+}
+.btn2 {
+  position: absolute;
+  padding: 8px 15px;
+  background: linear-gradient(180deg, #9895ff 0%, #514dcc 100%);
+  border-radius: 10px;
+  color: var(--color-white);
+  font-size: 16px;
+  border: none;
+  top: 15%;
+  right: 6%;
+}
+.newsletter p:last-child {
+  font-size: 12px;
+  font-weight: 600;
+  color: #29294b;
+  padding-top: 10px;
 }
