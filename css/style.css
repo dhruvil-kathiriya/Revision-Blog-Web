@@ -139,6 +139,7 @@ a {
 
 .intro h1 span {
   background: linear-gradient(180deg, #9895ff 0%, #514dcc 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -490,6 +491,7 @@ hr {
   position: fixed;
   bottom: 40px;
   right: 40px;
+  cursor: pointer;
 }
 
 .backtotop .arrow {
